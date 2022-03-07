@@ -1,0 +1,35 @@
+.head {
+	background-color: black;
+	color: white;
+}
+
+.brand {
+	padding-left: 10px;
+}
+body{
+   /*  background-color: cadetblue; */
+   background: #1a2a6c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+form{
+    background-color: wheat ;
+    margin: auto;
+    justify-content: center;
+    flex: auto;
+    width: 300px;
+    margin-top: 150px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 50px 15px;
+   /*  border-start-start-radius: 20px;
+    border-end-end-radius: 20px; */ 
+    
+    
+}
+.btn-custom:hover{
+    background-color:green;
+    color: white;
+
+}

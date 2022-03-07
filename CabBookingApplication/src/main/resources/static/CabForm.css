@@ -1,0 +1,41 @@
+.head {
+	background-color: black;
+	color: white;
+}
+
+.brand {
+	padding-left: 10px;
+}
+body{
+   /*  background-color: orchid; */
+   background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+/*.span1{
+border: 2px solid black;	
+}*/
+form{
+    background-color: darkgray;
+    margin: auto;
+    justify-content: center; 
+    flex: auto;
+    width: 300px;
+    margin-top: 70px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 50px 15px;
+    /* border-start-start-radius: 20px;
+    border-end-end-radius: 20px; */
+    
+
+}
+.btn-custom:hover{
+    background-color:green;
+    color: white;
+}
+.btn-custom1:hover{
+    background-color:rgb(65, 68, 65);
+    color: white;
+}
